@@ -15,7 +15,11 @@ app = Flask(__name__)
 #determines if I am using this on Titan and turns of analytics
 @app.context_processor
 def isItTitan():
-  return dict(Titan = os.environ['COMPUTERNAME'] == 'TITAN')
+  if 'COMPUTERNAME' in os.environ.keys():
+    t = os.environ['COMPUTERNAME'] == 'TITAN'
+  else:
+    t = False
+  return dict(Titan = t)
 
 #define the rout for the index page
 @app.route('/')
