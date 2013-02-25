@@ -26,7 +26,8 @@ def isItTitan():
 
 #sets the asset environment to allow for scss compiling :)
 if 'COMPUTERNAME' in os.environ.keys():
-  qq = os.environ['COMPUTERNAME'] == 'TITAN'
+  if os.environ['COMPUTERNAME'] == 'TITAN'
+    qq = True
 if qq:
   app.debug = True
 
