@@ -2,17 +2,27 @@
 {% block body %}
 <body>
   <h1>Lending Club Visualizations</h1>
-  <p>
+  <div class='idiv'>
     <h2>Default Rates By Credit Grade</h2>
     <br>
     <iframe src="/graph1" width="768px" height="400px" scrolling="no" style="border:0px"></iframe>
-  </p> 
-    <a href="/graph1">See example in its own tab or window</a> 
-  <p>
+  <br>
+  <a href="/graph1">See example in its own tab or window</a> 
+  
+  <p>The first thing I wanted to identify when exploring the Lending Club data was how good a job they are doing on identifying loans which will default based on their Credit Grade.  As you can see above A - D are pretty rank order but once you get past that there is a lot of variability.
+  <br>
+  </div> 
+  <div class='idiv'>
     <h2>Defaults, Full Pay, and Early Payoffs by Credit Grade</h2>
     <br>
     <iframe src="/graph2" width="768px" height="400px" scrolling="no" style="border:0px"></iframe>
-  </p> 
+    <br>
     <a href="/graph2">See example in its own tab or window</a> 
+    <br>
+    <p>This is the graph where things get interesting.  The defaults are the same as the last graph but I have added percent of customers who pay in full and percent which pay off early.  The Early Payoff customers are very problematic from an investing standpoint, while they do repay all of the principle they only pay a fraction of the interest.
+    <br>
+    <p>As an investor one would hope that full pays would be consistent while defaults and early payoffs had the inverse realationship.  However, such is not the case with a customers likelihood to payoff early virtually identical throughout all credit grades.
+    <br>
+  </div>
 </body>
 {% endblock %}

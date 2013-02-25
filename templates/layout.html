@@ -1,7 +1,7 @@
 <!doctype html>
 <head>
 
-  <title>Lending Club Data</title>
+  <title>Neo's D3 Page</title>
   <script type=text/javascript
     src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script> 
@@ -15,7 +15,12 @@
     </script>
   {% endif %}
   <!-- {% print "Titan = ", Titan %} -->  
-  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
+
+  {% assets "scss_all" %}
+  <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+  {% endassets %}
+  <!-- <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"> -->
 </head>
 <!-- For Debugging :)
 <script src="http://jsconsole.com/remote.js?9D925085-5461-4070-8E9A-4155BFAABFDA"></script>

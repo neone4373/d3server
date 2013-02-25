@@ -6,11 +6,14 @@
 import os, analytics
 from flask import Flask, jsonify, render_template, request, abort
 from jinja2 import TemplateNotFound
+from flask.ext.assets import Environment, Bundle
 
 analytics.init('82cl6i9bo6h4cnptal9b')
 
-#instatntiate the web app
+#instatntiate the web app 
 app = Flask(__name__)
+
+
 
 #determines if I am using this on Titan and turns of analytics
 @app.context_processor
@@ -20,6 +23,18 @@ def isItTitan():
   else:
     t = False
   return dict(Titan = t)
+
+#sets the asset environment to allow for scss compiling :)
+if 'COMPUTERNAME' in os.environ.keys():
+  qq = os.environ['COMPUTERNAME'] == 'TITAN'
+if qq:
+  app.debug = True
+
+assets = Environment(app)
+assets.url = app.static_url_path
+scss = Bundle('stylyn.scss', filters='pyscss', output='all.css')
+assets.register('scss_all', scss)
+
 
 #define the rout for the index page
 @app.route('/')

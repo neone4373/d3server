@@ -1,9 +1,9 @@
 /*I am a bad .css I am not behaving correctly */
 
-/*ft = font-family: 'Actor', sans-serif;*/
+$ft = 'Actor', sans-serif;
 
 body            { 
-  font-family: 'Actor', sans-serif; 
+  font-family: $ft;
   text-align: center; 
   background: #f2f9fe; /* Old browsers */
   background: -moz-linear-gradient(top,  #f2f9fe 0%, #d6f0fd 100%); /* FF3.6+ */
@@ -16,21 +16,22 @@ body            {
 }
 
 iframe {
+  height: "50%";
+  width: "100%";
   border: 1px solid dodgerblue;
   box-shadow: 0px 0px 5px grey;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-/*div.lend {
-  border: 1px solid dodgerblue;
-  box-shadow: 0px 0px 5px grey;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}*/
+div.idiv {
+  p {
+    text-align: left; 
+  }
+}
+
 a, h1, h2       { color: #444; }
-h1, h2          { font-family: 'Actor', sans-serif; margin: 0; }
+h1, h2          { font-family:  $ft; margin: 0; }
 h1              { border-bottom: 2px solid #eee; }
 h2              { font-size: 1.2em; }
 
@@ -48,7 +49,7 @@ h2              { font-size: 1.2em; }
 .error          { background: #F0D6D6; padding: 0.5em; }
 
 .fig {
-  font-family: 'Actor', sans-serif;
+  font-family:  $ft;
   font-size:10pt;
   color:lightblue;
 } 
@@ -62,7 +63,8 @@ h2              { font-size: 1.2em; }
 }
 
 .axis text {
-  font-family: 'Actor', sans-serif;
+  font-family:  $ft;
   font-size: 11px;
 }
+
 

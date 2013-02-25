@@ -1,8 +1,12 @@
 Flask==0.9
+Flask-Assets==0.8
+Flask-Scss==0.2
 Jinja2==2.6
 Werkzeug==0.8.3
 analytics-python==0.3.7
 distribute==0.6.27
+pyScss==1.1.5
 python-dateutil==2.1
 requests==1.1.0
 six==1.2.0
+webassets==0.8
