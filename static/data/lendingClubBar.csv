@@ -1,0 +1,207 @@
+id,type,month_age,issue_date,category,cat_name,count
+0,Loans by Status,1.0,1/13,0,Current or Fully Paid,6872
+0,Loans by Status,2.0,12/12,0,Current or Fully Paid,6057
+0,Loans by Status,2.0,12/12,2,16-120 days Late,9
+0,Loans by Status,3.0,11/12,0,Current or Fully Paid,6224
+0,Loans by Status,3.0,11/12,2,16-120 days Late,18
+0,Loans by Status,4.0,10/12,0,Current or Fully Paid,6001
+0,Loans by Status,4.0,10/12,2,16-120 days Late,28
+0,Loans by Status,5.0,9/12,0,Current or Fully Paid,6392
+0,Loans by Status,5.0,9/12,1,Charged Off or Defaulted,1
+0,Loans by Status,5.0,9/12,2,16-120 days Late,68
+0,Loans by Status,6.0,8/12,0,Current or Fully Paid,4586
+0,Loans by Status,6.0,8/12,1,Charged Off or Defaulted,8
+0,Loans by Status,6.0,8/12,2,16-120 days Late,73
+0,Loans by Status,7.0,7/12,0,Current or Fully Paid,4735
+0,Loans by Status,7.0,7/12,1,Charged Off or Defaulted,16
+0,Loans by Status,7.0,7/12,2,16-120 days Late,100
+0,Loans by Status,8.0,6/12,0,Current or Fully Paid,3866
+0,Loans by Status,8.0,6/12,1,Charged Off or Defaulted,16
+0,Loans by Status,8.0,6/12,2,16-120 days Late,97
+0,Loans by Status,9.0,5/12,0,Current or Fully Paid,2909
+0,Loans by Status,9.0,5/12,1,Charged Off or Defaulted,32
+0,Loans by Status,9.0,5/12,2,16-120 days Late,76
+0,Loans by Status,10.0,4/12,0,Current or Fully Paid,3834
+0,Loans by Status,10.0,4/12,1,Charged Off or Defaulted,68
+0,Loans by Status,10.0,4/12,2,16-120 days Late,77
+0,Loans by Status,11.0,3/12,0,Current or Fully Paid,2244
+0,Loans by Status,11.0,3/12,1,Charged Off or Defaulted,51
+0,Loans by Status,11.0,3/12,2,16-120 days Late,60
+0,Loans by Status,12.0,2/12,0,Current or Fully Paid,2947
+0,Loans by Status,12.0,2/12,1,Charged Off or Defaulted,84
+0,Loans by Status,12.0,2/12,2,16-120 days Late,88
+0,Loans by Status,13.0,1/12,0,Current or Fully Paid,2436
+0,Loans by Status,13.0,1/12,1,Charged Off or Defaulted,78
+0,Loans by Status,13.0,1/12,2,16-120 days Late,88
+0,Loans by Status,14.0,12/11,0,Current or Fully Paid,2034
+0,Loans by Status,14.0,12/11,1,Charged Off or Defaulted,78
+0,Loans by Status,14.0,12/11,2,16-120 days Late,65
+0,Loans by Status,15.0,11/11,0,Current or Fully Paid,2095
+0,Loans by Status,15.0,11/11,1,Charged Off or Defaulted,101
+0,Loans by Status,15.0,11/11,2,16-120 days Late,51
+0,Loans by Status,16.0,10/11,0,Current or Fully Paid,2052
+0,Loans by Status,16.0,10/11,1,Charged Off or Defaulted,95
+0,Loans by Status,16.0,10/11,2,16-120 days Late,46
+0,Loans by Status,17.0,9/11,0,Current or Fully Paid,1857
+0,Loans by Status,17.0,9/11,1,Charged Off or Defaulted,98
+0,Loans by Status,17.0,9/11,2,16-120 days Late,54
+0,Loans by Status,18.0,8/11,0,Current or Fully Paid,1820
+0,Loans by Status,18.0,8/11,1,Charged Off or Defaulted,95
+0,Loans by Status,18.0,8/11,2,16-120 days Late,50
+0,Loans by Status,19.0,7/11,0,Current or Fully Paid,1706
+0,Loans by Status,19.0,7/11,1,Charged Off or Defaulted,124
+0,Loans by Status,19.0,7/11,2,16-120 days Late,45
+0,Loans by Status,20.0,6/11,0,Current or Fully Paid,1675
+0,Loans by Status,20.0,6/11,1,Charged Off or Defaulted,105
+0,Loans by Status,20.0,6/11,2,16-120 days Late,45
+0,Loans by Status,21.0,5/11,0,Current or Fully Paid,1512
+0,Loans by Status,21.0,5/11,1,Charged Off or Defaulted,140
+0,Loans by Status,21.0,5/11,2,16-120 days Late,49
+0,Loans by Status,22.0,4/11,0,Current or Fully Paid,1437
+0,Loans by Status,22.0,4/11,1,Charged Off or Defaulted,110
+0,Loans by Status,22.0,4/11,2,16-120 days Late,33
+0,Loans by Status,23.0,3/11,0,Current or Fully Paid,1297
+0,Loans by Status,23.0,3/11,1,Charged Off or Defaulted,98
+0,Loans by Status,23.0,3/11,2,16-120 days Late,34
+0,Loans by Status,24.0,2/11,0,Current or Fully Paid,1386
+0,Loans by Status,24.0,2/11,1,Charged Off or Defaulted,100
+0,Loans by Status,24.0,2/11,2,16-120 days Late,32
+0,Loans by Status,25.0,1/11,0,Current or Fully Paid,1089
+0,Loans by Status,25.0,1/11,1,Charged Off or Defaulted,85
+0,Loans by Status,25.0,1/11,2,16-120 days Late,28
+0,Loans by Status,26.0,12/10,0,Current or Fully Paid,1159
+0,Loans by Status,26.0,12/10,1,Charged Off or Defaulted,82
+0,Loans by Status,26.0,12/10,2,16-120 days Late,28
+0,Loans by Status,27.0,11/10,0,Current or Fully Paid,1003
+0,Loans by Status,27.0,11/10,1,Charged Off or Defaulted,92
+0,Loans by Status,27.0,11/10,2,16-120 days Late,26
+0,Loans by Status,28.0,10/10,0,Current or Fully Paid,1018
+0,Loans by Status,28.0,10/10,1,Charged Off or Defaulted,86
+0,Loans by Status,28.0,10/10,2,16-120 days Late,29
+0,Loans by Status,29.0,9/10,0,Current or Fully Paid,956
+0,Loans by Status,29.0,9/10,1,Charged Off or Defaulted,100
+0,Loans by Status,29.0,9/10,2,16-120 days Late,31
+0,Loans by Status,30.0,8/10,0,Current or Fully Paid,969
+0,Loans by Status,30.0,8/10,1,Charged Off or Defaulted,90
+0,Loans by Status,30.0,8/10,2,16-120 days Late,19
+0,Loans by Status,31.0,7/10,0,Current or Fully Paid,1008
+0,Loans by Status,31.0,7/10,1,Charged Off or Defaulted,90
+0,Loans by Status,31.0,7/10,2,16-120 days Late,15
+0,Loans by Status,32.0,6/10,0,Current or Fully Paid,894
+0,Loans by Status,32.0,6/10,1,Charged Off or Defaulted,114
+0,Loans by Status,32.0,6/10,2,16-120 days Late,27
+0,Loans by Status,33.0,5/10,0,Current or Fully Paid,794
+0,Loans by Status,33.0,5/10,1,Charged Off or Defaulted,103
+0,Loans by Status,33.0,5/10,2,16-120 days Late,23
+0,Loans by Status,34.0,4/10,0,Current or Fully Paid,737
+0,Loans by Status,34.0,4/10,1,Charged Off or Defaulted,73
+0,Loans by Status,34.0,4/10,2,16-120 days Late,17
+0,Loans by Status,35.0,3/10,0,Current or Fully Paid,662
+0,Loans by Status,35.0,3/10,1,Charged Off or Defaulted,61
+0,Loans by Status,35.0,3/10,2,16-120 days Late,13
+0,Loans by Status,36.0,<3/10,0,Current or Fully Paid,6707
+0,Loans by Status,36.0,<3/10,1,Charged Off or Defaulted,997
+0,Loans by Status,36.0,<3/10,2,16-120 days Late,42
+1,Loans by Payoff Type,1.0,1/13,0,Current or Paid in Full,6872
+1,Loans by Payoff Type,2.0,12/12,0,Current or Paid in Full,6032
+1,Loans by Payoff Type,2.0,12/12,2,Paid Off Early,34
+1,Loans by Payoff Type,3.0,11/12,0,Current or Paid in Full,6169
+1,Loans by Payoff Type,3.0,11/12,2,Paid Off Early,73
+1,Loans by Payoff Type,4.0,10/12,0,Current or Paid in Full,5928
+1,Loans by Payoff Type,4.0,10/12,2,Paid Off Early,101
+1,Loans by Payoff Type,5.0,9/12,0,Current or Paid in Full,6345
+1,Loans by Payoff Type,5.0,9/12,1,Charged Off,1
+1,Loans by Payoff Type,5.0,9/12,2,Paid Off Early,115
+1,Loans by Payoff Type,6.0,8/12,0,Current or Paid in Full,4513
+1,Loans by Payoff Type,6.0,8/12,1,Charged Off,8
+1,Loans by Payoff Type,6.0,8/12,2,Paid Off Early,146
+1,Loans by Payoff Type,7.0,7/12,0,Current or Paid in Full,4686
+1,Loans by Payoff Type,7.0,7/12,1,Charged Off,10
+1,Loans by Payoff Type,7.0,7/12,2,Paid Off Early,155
+1,Loans by Payoff Type,8.0,6/12,0,Current or Paid in Full,3809
+1,Loans by Payoff Type,8.0,6/12,1,Charged Off,10
+1,Loans by Payoff Type,8.0,6/12,2,Paid Off Early,160
+1,Loans by Payoff Type,9.0,5/12,0,Current or Paid in Full,2842
+1,Loans by Payoff Type,9.0,5/12,1,Charged Off,25
+1,Loans by Payoff Type,9.0,5/12,2,Paid Off Early,150
+1,Loans by Payoff Type,10.0,4/12,0,Current or Paid in Full,3684
+1,Loans by Payoff Type,10.0,4/12,1,Charged Off,58
+1,Loans by Payoff Type,10.0,4/12,2,Paid Off Early,237
+1,Loans by Payoff Type,11.0,3/12,0,Current or Paid in Full,2143
+1,Loans by Payoff Type,11.0,3/12,1,Charged Off,47
+1,Loans by Payoff Type,11.0,3/12,2,Paid Off Early,165
+1,Loans by Payoff Type,12.0,2/12,0,Current or Paid in Full,2791
+1,Loans by Payoff Type,12.0,2/12,1,Charged Off,78
+1,Loans by Payoff Type,12.0,2/12,2,Paid Off Early,250
+1,Loans by Payoff Type,13.0,1/12,0,Current or Paid in Full,2278
+1,Loans by Payoff Type,13.0,1/12,1,Charged Off,66
+1,Loans by Payoff Type,13.0,1/12,2,Paid Off Early,258
+1,Loans by Payoff Type,14.0,12/11,0,Current or Paid in Full,1896
+1,Loans by Payoff Type,14.0,12/11,1,Charged Off,71
+1,Loans by Payoff Type,14.0,12/11,2,Paid Off Early,210
+1,Loans by Payoff Type,15.0,11/11,0,Current or Paid in Full,1860
+1,Loans by Payoff Type,15.0,11/11,1,Charged Off,94
+1,Loans by Payoff Type,15.0,11/11,2,Paid Off Early,293
+1,Loans by Payoff Type,16.0,10/11,0,Current or Paid in Full,1837
+1,Loans by Payoff Type,16.0,10/11,1,Charged Off,93
+1,Loans by Payoff Type,16.0,10/11,2,Paid Off Early,263
+1,Loans by Payoff Type,17.0,9/11,0,Current or Paid in Full,1619
+1,Loans by Payoff Type,17.0,9/11,1,Charged Off,96
+1,Loans by Payoff Type,17.0,9/11,2,Paid Off Early,294
+1,Loans by Payoff Type,18.0,8/11,0,Current or Paid in Full,1584
+1,Loans by Payoff Type,18.0,8/11,1,Charged Off,92
+1,Loans by Payoff Type,18.0,8/11,2,Paid Off Early,289
+1,Loans by Payoff Type,19.0,7/11,0,Current or Paid in Full,1454
+1,Loans by Payoff Type,19.0,7/11,1,Charged Off,119
+1,Loans by Payoff Type,19.0,7/11,2,Paid Off Early,302
+1,Loans by Payoff Type,20.0,6/11,0,Current or Paid in Full,1388
+1,Loans by Payoff Type,20.0,6/11,1,Charged Off,99
+1,Loans by Payoff Type,20.0,6/11,2,Paid Off Early,338
+1,Loans by Payoff Type,21.0,5/11,0,Current or Paid in Full,1275
+1,Loans by Payoff Type,21.0,5/11,1,Charged Off,135
+1,Loans by Payoff Type,21.0,5/11,2,Paid Off Early,291
+1,Loans by Payoff Type,22.0,4/11,0,Current or Paid in Full,1178
+1,Loans by Payoff Type,22.0,4/11,1,Charged Off,108
+1,Loans by Payoff Type,22.0,4/11,2,Paid Off Early,294
+1,Loans by Payoff Type,23.0,3/11,0,Current or Paid in Full,1056
+1,Loans by Payoff Type,23.0,3/11,1,Charged Off,97
+1,Loans by Payoff Type,23.0,3/11,2,Paid Off Early,276
+1,Loans by Payoff Type,24.0,2/11,0,Current or Paid in Full,1174
+1,Loans by Payoff Type,24.0,2/11,1,Charged Off,99
+1,Loans by Payoff Type,24.0,2/11,2,Paid Off Early,245
+1,Loans by Payoff Type,25.0,1/11,0,Current or Paid in Full,909
+1,Loans by Payoff Type,25.0,1/11,1,Charged Off,82
+1,Loans by Payoff Type,25.0,1/11,2,Paid Off Early,211
+1,Loans by Payoff Type,26.0,12/10,0,Current or Paid in Full,973
+1,Loans by Payoff Type,26.0,12/10,1,Charged Off,81
+1,Loans by Payoff Type,26.0,12/10,2,Paid Off Early,215
+1,Loans by Payoff Type,27.0,11/10,0,Current or Paid in Full,798
+1,Loans by Payoff Type,27.0,11/10,1,Charged Off,89
+1,Loans by Payoff Type,27.0,11/10,2,Paid Off Early,234
+1,Loans by Payoff Type,28.0,10/10,0,Current or Paid in Full,812
+1,Loans by Payoff Type,28.0,10/10,1,Charged Off,85
+1,Loans by Payoff Type,28.0,10/10,2,Paid Off Early,236
+1,Loans by Payoff Type,29.0,9/10,0,Current or Paid in Full,763
+1,Loans by Payoff Type,29.0,9/10,1,Charged Off,100
+1,Loans by Payoff Type,29.0,9/10,2,Paid Off Early,224
+1,Loans by Payoff Type,30.0,8/10,0,Current or Paid in Full,764
+1,Loans by Payoff Type,30.0,8/10,1,Charged Off,90
+1,Loans by Payoff Type,30.0,8/10,2,Paid Off Early,224
+1,Loans by Payoff Type,31.0,7/10,0,Current or Paid in Full,794
+1,Loans by Payoff Type,31.0,7/10,1,Charged Off,90
+1,Loans by Payoff Type,31.0,7/10,2,Paid Off Early,229
+1,Loans by Payoff Type,32.0,6/10,0,Current or Paid in Full,729
+1,Loans by Payoff Type,32.0,6/10,1,Charged Off,113
+1,Loans by Payoff Type,32.0,6/10,2,Paid Off Early,193
+1,Loans by Payoff Type,33.0,5/10,0,Current or Paid in Full,643
+1,Loans by Payoff Type,33.0,5/10,1,Charged Off,101
+1,Loans by Payoff Type,33.0,5/10,2,Paid Off Early,176
+1,Loans by Payoff Type,34.0,4/10,0,Current or Paid in Full,575
+1,Loans by Payoff Type,34.0,4/10,1,Charged Off,73
+1,Loans by Payoff Type,34.0,4/10,2,Paid Off Early,179
+1,Loans by Payoff Type,35.0,3/10,0,Current or Paid in Full,523
+1,Loans by Payoff Type,35.0,3/10,1,Charged Off,60
+1,Loans by Payoff Type,35.0,3/10,2,Paid Off Early,153
+1,Loans by Payoff Type,36.0,<3/10,0,Current or Paid in Full,4829
+1,Loans by Payoff Type,36.0,<3/10,1,Charged Off,993
+1,Loans by Payoff Type,36.0,<3/10,2,Paid Off Early,1924

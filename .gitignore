@@ -18,7 +18,8 @@
 *.pyc
 
 # Also for now CSVs
-*.csv
+*/LendingClub.csv
+*/LendingClub8000.csv
 # Ignore all vim temp files
 *~
 
