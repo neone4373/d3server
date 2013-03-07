@@ -46,7 +46,7 @@ var title = barsvg.append("text")
 //define some variables I hope to see later
 var labels, type, label, labelKeys, funding, ddKeys;
 
-d3.csv("/static/data/LendingClubBar.csv", function(error, data) {
+d3.csv("/static/data/lendingClubBar.csv", function(error, data) {
   
   // creates a distinct list of descriptions for the legend
   labels = d3.nest()
