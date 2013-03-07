@@ -17,6 +17,8 @@
 *.pickle
 *.pyc
 
+# Also for now CSVs
+*.csv
 # Ignore all vim temp files
 *~
 

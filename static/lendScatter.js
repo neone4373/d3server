@@ -13,11 +13,14 @@ var color = d3.scale.category10();
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
+    .tickSize(0)
     ;
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left");
+    .orient("left")
+    .tickSize(0)
+    ;
 
 var level = "Defaults";
 
@@ -40,7 +43,7 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
   function formatCredit(g) {
     if (g < 5){
       return 'A';
-    }
+    } 
     else if (g < 10){
       return 'B';
     }
@@ -63,7 +66,9 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
       return '';
     }
   }
-  xAxis.tickFormat(formatCredit); 
+  xAxis.tickFormat(formatCredit)
+    .tickSize(1)
+    ; 
 
 
   x.domain([0,d3.max(data, function(d) {return d.id})]);

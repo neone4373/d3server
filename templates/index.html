@@ -1,27 +1,44 @@
 {% extends "layout.html" %}
 {% block body %}
-<body>
+<body class = 'splash'>
   <h1>Lending Club Visualizations</h1>
+    <br>
   <div class='idiv'>
     <h2>Default Rates By Credit Grade</h2>
     <br>
-    <iframe src="/graph1" width="768px" height="400px" scrolling="no" style="border:0px"></iframe>
+    <iframe src="/lcGraph1" width="783px" height="415px" scrolling="no" style="border:0px"></iframe>
   <br>
-  <a href="/graph1">See example in its own tab or window</a> 
-  
-  <p>The first thing I wanted to identify when exploring the Lending Club data was how good a job they are doing on identifying loans which will default based on their Credit Grade.  As you can see above A - D are pretty rank order but once you get past that there is a lot of variability.
+  <a href="/lcGraph1">See example in its own tab or window</a> 
+  <p>The first thing I wanted to identify when exploring the Lending Club data was how good a job they are doing on identifying loans which will default based on their Credit Grade. As you can see above A - D are pretty rank order but once you get past that there is a lot of variability, this is of course to be expected and will be largely compensated for by the higher APR applied to these riskier loans.  
+  <br>
+  <p>It is worth noting that the loans I was looking at was only closed loans.  Given that only a small percentage of Lending Club's loans have come due, (loan term 3-5 years company has been around 5 years...) and any loans that close early will be either defaults or early payoff loans it is difficult to make many insights from this data.
   <br>
   </div> 
   <div class='idiv'>
     <h2>Defaults, Full Pay, and Early Payoffs by Credit Grade</h2>
     <br>
-    <iframe src="/graph2" width="768px" height="400px" scrolling="no" style="border:0px"></iframe>
+    <iframe src="/lcGraph2" width="783px" height="415px" scrolling="no" style="border:0px"></iframe>
     <br>
-    <a href="/graph2">See example in its own tab or window</a> 
+    <a href="/lcGraph2">See example in its own tab or window</a> 
     <br>
-    <p>This is the graph where things get interesting.  The defaults are the same as the last graph but I have added percent of customers who pay in full and percent which pay off early.  The Early Payoff customers are very problematic from an investing standpoint, while they do repay all of the principle they only pay a fraction of the interest.
+    <p>You can more clearly see the effect I was talking about above with the fact that few of the closed loans are full term and thus skewing the data.  The defaults are the same as the last graph but I have added percent of customers who pay in full and percent which pay off early. Early payoff customers can be very problematic from an investing standpoint, while they do repay all of the principle they only pay a fraction of the interest. 
     <br>
-    <p>As an investor one would hope that full pays would be consistent while defaults and early payoffs had the inverse realationship.  However, such is not the case with a customers likelihood to payoff early virtually identical throughout all credit grades.
+    <p>As an investor one would hope that full pays would be consistent while defaults and early payoffs had the inverse relationship. However, such is not the case with a customer's likelihood to pay off early virtually identical throughout all credit grades. 
+    <br>
+  </div>
+
+  <div class='idiv'>
+    <h2>Current Portfolio Performance</h2>
+    <br>
+    <iframe src="/lcGraph4" width="783px" height="415px" scrolling="no" style="border:0px"></iframe>
+    <br>
+    <a href="/lcGraph4">See example in its own tab or window</a> 
+    <br>
+    <p>Pay attention to this graph as there is a lot going on.  First thing to not is this is a compound graph, if you click it with your mouse and click the left and right keys you can toggle between the two different views of the data.
+    <br>
+    <p>In both cases it shows the count of loans grouped by age with the issued date on the bottom axis, what is a little different about this bar chart is that the groups are overlaid so the darker the color the more categories of loans that represents, blue being positive and pink not so much.
+    <br>
+    <p>So what are these two views?  The first chart is a look at the number of loans by status as defined by Lending Club.  Looking at this the number of delinquent loans is pretty manageable.  In the second I focus on pay type.  This chart tells a different story then the first which is while delinquencies are admittedly quite minor after a year or two borrowers start paying off early.  This can be seen clearly in the number of older closed loans which are early pay.  As discussed above this can be detrimental to returns, and should be a key concern to the savvy investor as little by little it erodes the number of full paying borrowers.  
     <br>
   </div>
 </body>

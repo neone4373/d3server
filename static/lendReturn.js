@@ -9,6 +9,8 @@ var y = d3.scale.linear()
     .range([height, 0]);
 
 var color = d3.scale.category10();
+var clist = d3.scale.ordinal()
+  .range(['#4992ff','#ff4955']);
 var colorLst = color.range();
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -20,7 +22,7 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
     .tickSize(0)
-    ;
+  ;
 
 var level = "Defaults";
 
@@ -31,14 +33,13 @@ var lendSvg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.json("static/data/lendingClub.json", function(error, fulldata) {
-  var dataDef = fulldata.Defaults;
-  var dataFull = fulldata.Full_Pay;
-  var dataEarly = fulldata.Early_Pay;
-  var dataSets = [dataDef,dataFull,dataEarly];
+  var dataPred = fulldata.Predicted_Return;
+  var dataAct = fulldata.Actual_Return;
+  //var dataSets = [dataDef,dataFull,dataEarly];
   var formatAsPercent = d3.format(".0%");
   yAxis.tickFormat(formatAsPercent);
   var grade = ['A','B','C','D','E','F','G']
-  var rangeNames = ['Defaults','Full Pay','Early Payoff','','','']
+  var rangeNames = ['ROI Off Interest Rate','Actual ROI']
   var legendVals = d3.scale.ordinal()
     .range(rangeNames)
     ;
@@ -72,8 +73,8 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
   xAxis.tickFormat(formatCredit); 
 
 
-  x.domain([0,d3.max(dataDef, function(d) {return d.id})]);
-  y.domain([0,d3.max(dataDef, function(d) {return d.value})]);
+  x.domain([0,d3.max(dataPred, function(d) {return d.id})]);
+  y.domain([0,d3.max(dataPred, function(d) {return d.value})]);
 
 
     lendSvg.append("g")
@@ -96,7 +97,7 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("% of Loans")
+        .text("Annualized % Return")
 
   function graph_the_dots(data,kk){ 
      lendSvg.selectAll(".dot"+kk)
@@ -104,10 +105,10 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
       .enter().append("circle")
         .attr("class", "dot")
         .attr("r", 10)
-        .attr("cx",width/200)
+        .attr("cx",width)
         .attr("cy",0)
         .style("opacity",0.1)
-        .style("fill", color.range()[kk]);
+        .style("fill", clist.range()[kk]);
             //function(d) { return color(d.name[0]); });
 
     lendSvg.selectAll(".dot").transition().duration(1000)
@@ -121,28 +122,27 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
     graph_the_dots(dataSets[k]);
   }
   */
-  graph_the_dots(dataDef,0);
-  graph_the_dots(dataFull,1);
-  graph_the_dots(dataEarly,2);
+  graph_the_dots(dataPred,0);
+  graph_the_dots(dataAct,1);
 
   //[dataDef,dataFull,dataEarly]
   var lendLegend = lendSvg.selectAll(".legend")
-      .data(color.range().slice(0,3))
+      .data(clist.range())
     .enter().append("g")
       .attr("class", "legend")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
   lendLegend.append("rect").transition().duration(1000)
       .attr("x", 36)
-      .attr("y",190)
+      .attr("y",20)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", color)
+      .style("fill", clist)
       .style("opacity",.75);
 
   lendLegend.append("text")
       .attr("x", 55)
-      .attr("y", 200)
+      .attr("y", 30)
       .attr("dy", ".35em")
       .style("text-anchor", "begin")
       .style("fill",'#000')
@@ -151,3 +151,4 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
 
 
 });
+

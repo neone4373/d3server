@@ -25,7 +25,7 @@ def isItTitan():
   return dict(Titan = t)
 
 #sets the asset environment to allow for scss compiling :)
-app.debug = False
+#app.debug = True 
 
 assets = Environment(app)
 assets.url = app.static_url_path

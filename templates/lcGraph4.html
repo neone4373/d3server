@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block body %}
+<style>
+
+svg {
+  font: 10px sans-serif;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.y.axis line {
+  stroke: #fff;
+  stroke-opacity: .2;
+  shape-rendering: crispEdges;
+}
+
+.y.axis .zero line {
+  stroke: #000;
+  stroke-opacity: 1;
+}
+
+.domain {
+  opacity: 0;
+}
+.title {
+  font: 300 38px Helvetica Neue;
+  fill: #666;
+}
+
+.birthyear,
+.age {
+  text-anchor: middle;
+}
+
+.birthyear {
+  fill: #fff;
+}
+
+.birthyear text {
+  font: 8px sans-serif;
+}
+
+rect {
+  fill-opacity: .6;
+  fill: #F7776D;
+  /*fill: #e377c2;*/
+}
+
+rect:first-child {
+  fill: #1f77b4;
+}
+
+</style>
+
+<body class='graph'>
+  <div id='lend'>
+    <script type=text/javascript src="{{ url_for('static', filename='lendingTypeChart.js') }}"></script>
+  </div>
+</body>
+{% endblock %}
