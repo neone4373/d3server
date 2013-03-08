@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 40, bottom: 30, left: 20},
-    width = 768 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom,
+    width = 640 - margin.left - margin.right,
+    height = 333 - margin.top - margin.bottom,
     barWidth = Math.floor(width / 36) - 1;
 
 var color = d3.scale.ordinal()

@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 768 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 640 - margin.left - margin.right,
+    height = 333 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -122,17 +122,18 @@ d3.json("static/data/lendingClub.json", function(error, fulldata) {
 
   lendLegend.append("rect").transition().duration(1000)
       .attr("x", 36)
-      .attr("width", 18)
-      .attr("height", 18)
+      .attr("width", 16)
+      .attr("height", 16)
       .style("fill", color)
       .style("opacity",.75);
 
   lendLegend.append("text")
-      .attr("x", 39.5)
-      .attr("y", 9)
+      .attr("x", 40.5)
+      .attr("y", 8)
       .attr("dy", ".35em")
       .style("text-anchor", "begin")
       .style("fill",'#FFFFFF')
+      .style("font-size", "10px")
       .text(legendVals)
       ;
 
